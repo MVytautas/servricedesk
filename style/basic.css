@@ -1,0 +1,83 @@
+body {
+	padding: 40px;
+	overflow-x: hidden; /* For Opera */
+	-webkit-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	-moz-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+		
+}
+
+.mainFrame {
+    float: left;
+    margin: 5%;
+    padding: 15%;
+    max-width: 300%;
+    height: 300%;
+    border: 1px solid black;
+} 
+
+
+/*body:before, body:after {*/
+/*    content: "";*/
+/*    position: fixed;*/
+/*    background: #900;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    height: 10px;*/
+/*}*/
+/*body:before {*/
+/*    top: 0;*/
+/*}*/
+/*body:after {*/
+/*    bottom: 0;*/
+/*}*/
+/*body {*/
+/*    border-left: 10px solid #900;*/
+/*    border-right: 10px solid #900;  */
+/*}*/
+
+/*body {*/
+/*  font-family: sans-serif;*/
+/*}*/
+
+/*#top, #bottom, #left, #right {*/
+/*	background: #a5ebff;*/
+/*	position: fixed;*/
+/*	}*/
+/*	#left, #right {*/
+/*		top: 0; bottom: 0;*/
+/*		width: 15px;*/
+/*		}*/
+/*		#left { left: 0; }*/
+/*		#right { right: 0; }*/
+		
+/*	#top, #bottom {*/
+/*		left: 0; right: 0;*/
+/*		height: 15px;*/
+/*		}*/
+/*		#top { top: 0; }*/
+/*		#bottom { bottom: 0; }*/

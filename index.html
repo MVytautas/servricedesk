@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>This an index page</title>
+
+  <link rel="stylesheet" href="style/basic.css">
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+</head>
+
+
+<body ng-controller="myCtrl as ctrl">
+  
+  <div class="mainFrame">
+  <frameset cols="25%,*">
+        <ul>
+            <li ng-repeat="item in ctrl.suggestions">{{ item }}</li>    
+        </ul>
+        <p>Empty</p>
+  </frameset>
+  </div>
+  
+  <div class="mainFrame">
+  <frameset cols="*">
+    <div> 
+      <form>
+      Answer:<br>
+      <input type="text" name="input" ng-model="example.text">
+      <br>
+      <button ng-click=SendData() type="button" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </frameset>
+  </div>
+  
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="scripts/client.js"></script>
+</body>
+</html>
